@@ -99,8 +99,14 @@ public class Player : MonoBehaviour
         {
             AniR.SetBool("Jump", false);
         }
-        if (Input.GetKey(KeyCode.Space))
-             AniR.SetBool("Dash", true);
+        if (dashing)
+        {
+            AniR.SetBool("Dash", true);
+        }else
+        {
+            AniR.SetBool("Dash", false);
+        }
+             
     }
 
     void Jump()
