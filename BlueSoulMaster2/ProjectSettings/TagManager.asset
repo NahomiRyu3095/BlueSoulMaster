@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Stones
   - Caida
+  - Plataforma
+  - Focus
+  - Plataforma02
   layers:
   - Default
   - TransparentFX
